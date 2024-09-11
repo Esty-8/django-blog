@@ -7,7 +7,7 @@ assignees: ''
 
 ---
 
-As a **role** I can **capability** so that **received benefit**
+As a Site User / Admin I can view comments on an individual post so that I can read the conversation
 
 - Acceptance criteria 1
 
