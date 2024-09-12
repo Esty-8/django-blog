@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-%op8)o8a95bj-5chbge#@*2m4xha6@stdjx0h4s+18c*srs()i
 SECRET_KEY = os.environ.get("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['8000-esty8-djangoblog-ufmcea580uo.ws-eu116.gitpod.io',
  '.herokuapp.com'
@@ -94,6 +94,7 @@ DATABASES = {
 }
 
 CSRF_TRUSTED_ORIGINS = [
+    'https://8000-esty8-djangoblog-ufmcea580uo.ws-eu116.gitpod.io',
     "https://*.codeinstitute-ide.net/",
     "https://*.herokuapp.com"
 ]
